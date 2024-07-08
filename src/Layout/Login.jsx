@@ -10,24 +10,26 @@ function Login() {
  function setInformation(){
   let Information = {
     "id" : Math.floor(Math.random() * 1000000000000) ,
-    "firestName" : Input.current.value,
+    "Email" : Input.current.value,
     "password" : InputPassword.current.value,
   }
-  }
+  
+
+
+}
 
   return(
     <div className='main-Login'>
     <div className='container-Login'>
       <label htmlFor="">Email :</label>
       <input ref={Input} type="text"/>
-      <label htmlFor="">Last Name :</label>
+      <label htmlFor="">Password :</label>
       <input ref={InputPassword} type="password"/>     
-      <button onClick={setInformation}>send</button>
+      <Link to={"/"}><button onClick={setInformation}>send</button></Link>
     </div>
     </div>
 )
 
-  
-}
+ }
 
 export default Login
