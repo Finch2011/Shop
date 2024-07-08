@@ -1,0 +1,104 @@
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.main-div {
+    width: 200px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 200);
+    padding: 2rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-div img {
+    width: 200px;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    width: max-content;
+    height: max-content;
+    font-size: 14px;
+    color: black;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.Buy{
+    width: 80px;
+    height: 40px;
+    background-color:transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+.Buy:hover{
+    transition: all 0.5s ease-in;
+    background-color: gray;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+nav .btn-nav{
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    color: white;
+}
